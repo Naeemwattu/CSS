@@ -1,0 +1,44 @@
+.container{
+    border: 2px solid red;
+    background-color: rgb(173, 241, 173); 
+    padding: 35px;
+    margin: 35px auto;
+    width: 600px;
+}
+
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: green;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 51, 0);
+}
+
+a:visited{
+    color: rgb(140, 143, 3);
+}
+
+a:active{
+    color: royalblue;
+    background-color: salmon;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(0, 82, 0);
+    border: 2px solid black;
+}
