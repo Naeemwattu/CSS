@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color: rgb(230, 36, 78);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    
+}
+
+.left img{
+    width:100px;
+}
+
+.mid{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 32px 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(102, 170, 187);
+}
+
+.btn{
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    padding: 5px 16px;
+    border: 2px solid  rgb(102, 170, 187);
+    border-radius: 8px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:  rgb(102, 170, 187);
+}
+
+.container{
+    /* border: 2px solid  rgb(102, 170, 187); */
+    margin: 30px 15px;
+    padding: 25px 25px;
+    width:  32%;
+    border-radius: 8px;
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 84%;
+    margin: auto;
+}
+
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 325px;
+    padding: 6px;
+    margin: 6px auto;
+    border: 2px solid  rgb(102, 170, 187);
+    border-radius: 8px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.container2{
+    /* border: 2px solid  rgb(102, 170, 187); */
+    margin: -40px 15px;
+    padding: 25px 25px;
+    width:  32%;
+    border-radius: 8px;
+    text-align: center;
+}
+.container2 button{
+    display: block;
+    width: 84%;
+    margin: auto;
+}
