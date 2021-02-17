@@ -1,0 +1,28 @@
+.box{
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+}
+
+#box1{
+    /* visibility: hidden; */
+    /* top: 30px; */
+    position: relative;
+    background-color: red;
+}
+#box2{
+    /* z-index: 45px; */
+    /* visibility: hidden; */
+    /* top: 12px; */
+    position: relative;
+    background-color: green;
+}
+#box3{
+    /* z-index: 50px; */
+    background-color: blue;
+}
+#box4{
+    /* bottom: 15px; */
+    position: relative;
+    background-color: yellow;
+}
