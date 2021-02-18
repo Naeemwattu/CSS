@@ -1,0 +1,12 @@
+/* for vh units */
+/* h1{
+    font-size: 20vh;
+} */
+
+
+
+
+/* for vw units */
+h1{
+    font-size: 20vw;
+}
