@@ -1,0 +1,62 @@
+.container{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+input{
+    display: block;
+}
+
+input[type='text']{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+}
+
+input[type='email']{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid green;
+}
+
+input[type='password']{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid yellow;
+}
+
+input[type='submit']{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid blue;
+}
+
+a[target]{
+    font-size: 30px;
+    color: brown;
+}
+
+a[target='_self']{
+    font-size: 30px;
+    color: cyan;
+}
+
+/* li:nth-child(4){
+    color:darkorchid;
+} */
+
+
+/* li:nth-child(2n+0){
+    color:darkorchid;
+} */
+
+li:nth-child(odd){
+    color:red;
+    background-color: black;
+}
+
+li:nth-child(even){
+    color:darkorchid;
+    background-color: cornflowerblue;
+}
