@@ -1,0 +1,10 @@
+/* div > p{
+    color:yellow;
+    background-color: red;
+} */
+
+
+div + p{
+    color:yellow;
+    background-color: red;
+}
