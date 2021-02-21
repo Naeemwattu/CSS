@@ -1,0 +1,23 @@
+:root{
+    --box-color: orange;
+    --primary-color: blue;
+    --high-color: red;
+    --mxw: 350px;
+}
+.container{
+    display: flex;
+    background-color: var(--high-color);
+    align-items: center;
+    justify-content: center;
+    max-width: var(--mxw);
+    margin: auto;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 3px solid green;
+    background-color: var(--primary-color);
+    box-shadow: 4px 4px 5px var(--box-color);
+    margin: 5px 15px;
+}
