@@ -18,6 +18,10 @@
     /* animation-timing-function: ease-in; */
     /* animation-timing-function: ease-out; */
     /* animation-timing-function: ease-in-out; */
+
+    /* animation shorthand  */
+    /* name duration timing-function delay ieration-count direction */
+    /* animation: example 5s linear 2s infinite alternate; */
 }
 @keyframes nomi2{
     0%{
