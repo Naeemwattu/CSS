@@ -1,0 +1,20 @@
+div {
+    width: 150px;
+    height: 30px;
+    /* background-color: red; */
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  #div1 {background-color: orangered; animation-timing-function: linear;}
+  #div2 {background-color: red; animation-timing-function: ease;}
+  #div3 {background-color: green; animation-timing-function: ease-in;}
+  #div4 {background-color: yellow; animation-timing-function: ease-out;}
+  #div5 {background-color: blueviolet; animation-timing-function: ease-in-out;}
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
