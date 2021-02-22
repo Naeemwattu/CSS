@@ -5,7 +5,7 @@ div {
     font-weight: bold;
     font-size: 2rem;
     position: relative;
-    animation: mymove 5s infinite;
+    animation: timing-function 5s infinite;
   }
   
   #div1 {background-color: orangered; animation-timing-function: linear;}
@@ -14,7 +14,7 @@ div {
   #div4 {background-color: yellow; animation-timing-function: ease-out;}
   #div5 {background-color: blueviolet; animation-timing-function: ease-in-out;}
   
-  @keyframes mymove {
+  @keyframes timing-function {
     from {left: 0px;}
     to {left: 300px;}
   }
