@@ -1,0 +1,34 @@
+ body{
+     background-color:rgb(90, 214, 236);
+ }
+ #box{
+     display: flex;
+     width: 100px;
+     height: 100px;
+     background-color: chocolate;
+     color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: background-color; */
+    /* transition-duration: 2s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 1s; */
+
+    /* transition shortand property in one line */
+    /* transition: background-color 2s ease-in-out 1s; */
+
+    /* all property in oneline */
+    transition: all 2s ease-in-out 1s;
+ }
+
+ #box:hover{
+     background-color: green;
+     height: 200px;
+     width: 200px;
+     border-radius: 30px;
+     font-size: 25px;
+     color:yellow;
+     font-family: ;
+ }
