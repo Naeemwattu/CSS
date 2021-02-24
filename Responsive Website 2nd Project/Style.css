@@ -1,0 +1,156 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+/* Navigation bar logo and Image */
+#logo{
+    margin: 0px 15px;
+}
+
+#logo img{
+    height: 55px;
+    margin: 5px 15px;
+    border-radius: 50%;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Navigation Bar List Styling */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    /* background-color: cadetblue; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: rgb(28, 27, 133);
+    display: block;
+    padding: 5px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar ul li a:hover{
+    background-color: rgb(28, 27, 133);
+    color:white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background:url('abstract-blur-defocused-shopping-mall-center-department-store.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home h1{
+    color:rgb(28, 27, 133);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+#home p{
+    color:black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+#home 
+
+/* utility class */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 20px;
+}
+.btn{
+    padding: 5px 20px;
+    border: 2px solid black;
+    background-color: rgb(28, 27, 133);
+    color: white;
+    margin: 18px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:  rgb(105, 103, 228);
+    color: black;
+    border: white;
+}
+
+
+/* services sections */
+.h-primary-center{
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+.h-sesondary-center{
+    font-size: 1.7rem;
+    padding: 20px;
+}
+
+#services{
+    margin: 40px;
+    display: flex;
+}
+
+#services .box1{
+    border: 2px solid blue;
+    padding: 30px;
+    margin: 50px 7px;
+    border-radius: 30px;
+    background-color: rgb(180, 180, 226);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+#services .box1 p{
+    text-align: center;
+}
+#services .box1 img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.products-container{
+    background:url('female-friends-out-shopping-together.jpg') no-repeat center center/cover;
+}
