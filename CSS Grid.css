@@ -1,11 +1,24 @@
 .container{
     display: grid;
+
+    /* --------------Introduction and Creating a Basic Grid------------- */
+
     /* grid-template-columns: 300px 200px 100px; */
     /* grid-template-columns: 400px auto 300px; */
     /* grid-template-columns: 1fr 4fr 1fr; */
     /* grid-template-columns: repeat(10, auto); */
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 2rem
+    /* grid-template-columns: repeat(3, auto); */
+    /* grid-gap: 2rem */
+
+
+
+/* ---------------Creating Rows And Gaps in Grid-------------- */
+
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-auto-rows: 3fr;
+
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-gap: 1rem
 }
 .item{
     /* height: 100px;
@@ -13,6 +26,6 @@
     background-color: green;
     border: 2px solid red;
     /* margin: 3px; */
-    padding: 15px 5px;
+    /* padding: 15px 5px; */
 
 }
