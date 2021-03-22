@@ -9,7 +9,7 @@
 }
 .item{
     border: 3px solid gray;
-    background-color: lightgrey;
+    background-color: rgb(142, 189, 197);
     padding: 15px 10px;
 }
 #navbar{
@@ -23,4 +23,70 @@
 }
 #footer{
     grid-area: footer;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:300px){
+    body{
+        background-color: cyan;
+        color: black;
+    }
+    .container{
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section sidebar'
+        'footer footer footer footer'
+        ;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    body{
+        background-color: red;
+        color:black;
+    }
+    .container{
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'sidebar sidebar sidebar sidebar'
+        'footer footer footer footer'
+        ;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:800px){
+    body{
+        background-color:yellow;
+        color: black;
+    }
+    .container{
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'sidebar sidebar sidebar sidebar'
+        'footer footer footer footer'
+        ;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:800px){
+    body{
+        background-color:green;
+        color:black;
+    }
 }
