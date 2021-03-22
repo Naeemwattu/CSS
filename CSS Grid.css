@@ -22,9 +22,19 @@
 
 
     /* ---------spanning multiple rows and column in grid---------- */
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* grid-gap:1rem; */
+
+
+
+    /* =----------Autofit & Min Max CSS Grid-------- */
     grid-gap:1rem;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    /* justify-content: center; */
 }
 .item:first-child{
     /* grid-column-start: 1;
@@ -32,8 +42,11 @@
     grid-row-start: 1;
     grid-row-end: 3; */
 
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 3;
+    /* grid-column: 1 / span 3; */
+    /* grid-row: 1 / span 3; */
+
+
+
 }
 .item{
     /* height: 100px;
